@@ -2,24 +2,11 @@ import React from "react";
 import Aside from "./Aside";
 import Section from "./Section";
 
-function Main({
-  handleAddClick,
-  handleSelectChange,
-  handleTXBoxRemove,
-  timeZones,
-  listOfSelectedTZ,
-}) {
+function Main() {
   return (
     <main>
-      <Aside
-        handleAddClick={handleAddClick}
-        handleSelectChange={handleSelectChange}
-        timeZones={timeZones}
-      />
-      <Section
-        handleTXBoxRemove={handleTXBoxRemove}
-        listOfSelectedTZ={listOfSelectedTZ}
-      />
+      <Aside />
+      <Section />
     </main>
   );
 }

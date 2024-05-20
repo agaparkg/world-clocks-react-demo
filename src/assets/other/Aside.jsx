@@ -1,16 +1,14 @@
 import React from "react";
-import SingleOption from "./SingleOption";
 
-function Aside({ handleSelectChange, handleAddClick, timeZones }) {
+function Aside() {
   return (
     <aside>
       <div className="add-clock-box">
-        <button onClick={handleAddClick}>Add Clock</button>
-        <select onChange={handleSelectChange} name="timezone" id="timezone">
-          <option>- Select a timezone -</option>;
-          {timeZones.map((zone, ind) => {
-            return <SingleOption key={ind} zone={zone} />;
-          })}
+        <button>Add Clock</button>
+        <select name="timezone" id="timezone">
+          <option>- Select a timezone -</option>
+          <option>Africa/Ceuta</option>;
+          <option>America/Argentina/Buenos_Aires</option>;
         </select>
       </div>
     </aside>

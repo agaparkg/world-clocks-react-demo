@@ -1,7 +1,7 @@
 import React from "react";
 
-function SingleOption({ zone }) {
-  return <option>{zone}</option>;
+function SingleOption() {
+  return <option>Africa/Ceuta</option>;
 }
 
 export default SingleOption;

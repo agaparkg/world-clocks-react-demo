@@ -1,17 +1,23 @@
 import React from "react";
 
-function Section({ handleTXBoxRemove, listOfSelectedTZ }) {
+function Section() {
   return (
     <section>
-      {listOfSelectedTZ.map((tzBox, ind) => {
-        return (
-          <div key={ind} className="single-timezone">
-            <span onClick={() => handleTXBoxRemove(tzBox.id)}>X</span>
-            <h3 className="single-clock">{tzBox.zoneName}</h3>
-            <div>{tzBox.zoneTime}</div>
-          </div>
-        );
-      })}
+      <div className="single-timezone">
+        <span>X</span>
+        <h3 className="single-clock">Africa/Ceuta</h3>
+        <div>11:14:03 PM</div>
+      </div>
+      <div className="single-timezone">
+        <span>X</span>
+        <h3 className="single-clock">America/Argentina/Buenos_Aires</h3>
+        <div>09:14:03 PM</div>
+      </div>
+      <div className="single-timezone">
+        <span>X</span>
+        <h3 className="single-clock">Asia/Bishkek</h3>
+        <div>02:14:03 AM</div>
+      </div>
     </section>
   );
 }
