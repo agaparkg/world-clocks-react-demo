@@ -1,8 +1,7 @@
-# React + Vite
+# World Clocks React App with localStorage and moment-timezone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Initial view
+  ![view1](./src/assets/images/view1.png)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- World Clocks added
+  ![clocks](./src/assets/images/clocks.png)
